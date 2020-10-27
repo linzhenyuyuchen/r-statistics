@@ -25,6 +25,6 @@ add `C:\Program Files\R\R-4.0.3` to **system environment path**
 conda activate env
 conda install -c r r-base
 R
- install.packages("rms")
+ install.packages("rms", repos='https://mirrors.tuna.tsinghua.edu.cn/CRAN/')
 ```
 
