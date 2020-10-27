@@ -12,7 +12,6 @@
 
 add `C:\Program Files\R\R-4.0.3` to **system environment path**
 
-### 1.1.3
 
  ```
  writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
