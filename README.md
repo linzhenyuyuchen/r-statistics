@@ -12,6 +12,7 @@
 
 add `C:\Program Files\R\R-4.0.3` to **system environment path**
 
+Tools->Global Options->Packages->CRAN mirrors
 
  ```
  writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
